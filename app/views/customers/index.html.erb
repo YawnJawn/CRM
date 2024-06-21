@@ -1,1 +1,12 @@
-<h1>Its done</h1>
+<h1>Listing All Customers</h1>
+
+<%= render @customers %>
+<%# 
+This passes the customers variable from the def index in customers controller, looks for a partial called _customers in the customers view folder, and then use the @customers variable in that partial to create our page 
+
+Long form is:
+ <%= render partial: 'customers/customer',
+            collection: @customers,
+            as: 'customer' %> 
+%>.
+
