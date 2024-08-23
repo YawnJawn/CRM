@@ -1,0 +1,7 @@
+<h1>Customers with no email<h1>
+<% if @customers.size.zero?%>
+    <h2>No customers found!</h2>
+<% else %>
+
+<%= render @customers %>
+<% end %>

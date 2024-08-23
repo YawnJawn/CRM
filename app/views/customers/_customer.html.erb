@@ -1,4 +1,7 @@
 <div>
+<% if customer.avatar.present? %>
+    <%= image_tag customer.avatar %>
+<% end %>
 <h2><%= customer.full_name %><h2>
 <p><bold>Phone number: </bold><%= customer.phone_number%></p>
 <p><bold>Email: </bold><%= customer.email_address%></p>

@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 ruby "3.2.4"
 gem 'activeadmin'
+gem 'ransack'
 
 # Plus integrations with:
 gem 'devise'
